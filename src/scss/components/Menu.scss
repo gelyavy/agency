@@ -1,0 +1,38 @@
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 20px; /* Отступ между колонками */
+    row-gap: 20px; /* Отступ между рядами */
+    margin-bottom: 34px;
+
+    .logo {
+        margin: auto;
+        color: #EAE9E5;
+        font-size: 30px;
+        font-weight: 700;   
+    }
+
+    .menu {
+        margin: auto;
+        color: #EAE9E5;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .home {
+        grid-column: 9;
+    }
+
+    .service {
+        grid-column: 10;
+    }
+
+    .cases {
+        grid-column: 11;
+    }
+
+    .contacts {
+        grid-column: 12;
+    }
+    
+}

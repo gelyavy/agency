@@ -1,0 +1,28 @@
+.MainButton {
+    width: 323px;
+    height: 115px;
+    border-radius: 70px;
+    border: 3px solid #F00;
+    background: #EAE9E5;
+    display: flex;
+
+    p{
+        color: #1B191C;
+        font-size:35px;
+        font-weight: 600;
+        line-height: 158.523%; /* 47.557px */
+        padding-top: 30px;
+        margin-left: 48px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .circle {
+        background-color: #F00;
+        border-radius: 400px;
+        width: 90px;
+        height: 90px;
+        margin-top: 13px;
+        margin-left: 13px;
+    }
+}

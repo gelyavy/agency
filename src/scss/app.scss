@@ -1,0 +1,25 @@
+.main {
+    background-color: #1B191C;
+    padding: 60px 150px;
+}
+
+.main-block {
+    display: flex;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 20px; /* Отступ между колонками */
+    row-gap: 20px; /* Отступ между рядами */
+}
+
+.title-block{
+    grid-column: span 8;
+}
+
+.MainButton-block {
+    padding: 20px 0px;
+    grid-column: span 4;
+    height: 115px;
+    justify-content: end;
+}
+
+
+
